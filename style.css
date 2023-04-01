@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+
+    /* This gets the content side to each other */
+    display:flex;
+    flex-direction: column;
+
+    /* this makes the content vertically center */
+    align-items: center;
+
+    height:100vh;
+
+    /*  this makes the content horizontally center */
+    justify-content: center;
+
+
+    background:url(/abed-ismail-_jhUrn9o8yM-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* to remove scroll bars if we decrease the size */
+    overflow: hidden;
+    
+}
+
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.clock{
+    display: flex;
+
+}
+
+.clock div{
+    margin:5px;
+    position: relative;
+
+}
+
+
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: slateblue;
+    opacity: 0.7;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+
+
+    text-shadow: 2px 2px 4px rgba(0,0,0, 0.4);
+}
+
+
+
+.clock .text{
+    height:30px;
+
+    font-size: 10px;
+    transform: uppercase;
+    letter-spacing: 2px;
+    background-color: blueviolet;
+    opacity: 0.8;
+
+} 
+
+
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    font-size: 25px;
+    height: 60px;
+    width: 90px;
+    background-color:crimson;
+
+}
